@@ -10,7 +10,7 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "target": "esnext",
-    "types": [],
+    "types": ["jest"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -45,6 +45,7 @@
   "exclude": [
     "node_modules",
     "dist",
-    "jest.config.ts"
+    "jest.config.ts",
+    "src/tests/**/*"
   ]
 }
